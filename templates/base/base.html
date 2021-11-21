@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!--Headers-->
+<!--Headers SIN ESTO  LA VISTA EN EL NAVEGADOR SE DESCONFIGURA-->
 {% include 'base/header.html' %}
 
 <!-- BODY options, add following classes to body to change options
@@ -33,17 +33,17 @@
 -->
 
 <body class="app header-fixed sidebar-fixed aside-menu-fixed aside-menu-hidden">
-<!--Navbar-->
-{% include 'base/navbar.html' %}
+<!--Navbar  ESTE ES EL ENCABEZADO SIN ESTO NO HAY PERFIL EN EL ENCABEZADO-->
+<!--{% include 'base/navbar.html' %}-->
 
 <div class="app-body">
-    <!--Sidebar-->
-    {% include 'base/sidebar.html' %}
+    <!--Sidebar ESTA ES LA LISTA DE OPCIONES QUE APARECE EN LA COLUMNA ISQUIERDA-->
+    {% include 'base/sidebar.html' %} 
 
     <!-- Main content -->
     <main class="main">
 
-        <!-- Breadcrumb -->
+        <!-- Breadcrumb  ESTO PERTENECE A LA PARTE LOGICA CREO XD QUERY-->
         {% include 'base/breadcrumb.html' %}
 
         <!-- Page contents -->
@@ -58,15 +58,15 @@
     </main>
 
 
-    <!--Aside bar-->
+    <!--Aside bar  AL ELIMINAR NO PASO NADA-->
     {% include 'base/asidebar.html' %}
 
 </div>
 
-<!--Footer-->
-{% include 'base/footer.html' %}
+<!--Footer  HACE REFERENCIA A LA PARTE INFERIOR DE DERECHOS DEL AUTOR-->
+<!-- {% include 'base/footer.html' %}-->
 
-<!--JS-->
+<!--JS AL BORRAR NO PASO NADA XD-->
 {% include 'base/js.html' %}
 
 </body>
